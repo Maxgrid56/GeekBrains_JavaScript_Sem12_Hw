@@ -1,154 +1,94 @@
-.literally_everything {
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Lato";
+    font-style: normal;
+}
+
+.body {
+    display: flex;
     width: 100%;
-    height: 100%;
+    margin: 0 auto;
+}
+
+.top_title {
+    width: inherit;
+}
+
+.top_title_header {
+    display: flex;
+    width: inherit;
+    background-color: #222;
+    min-height: 75px;
+}
+
+.top_header_margin {
+    display: flex;
+    width: inherit;
+    justify-content: space-between;
+    /*margin-left: 14.4%;
+    margin-right: 14.3%;*/
+}
+
+
+/*.top_header_btn {
+    max-width: 1140px;
+    padding-left: calc(50% - 570px);
+    padding-right: calc(50% - 570px);
+    display: flex;
+    justify-content: space-between;
+}*/
+
+.top_title_header_icons_left {
+    display: flex;
+    gap: 41px;
+    margin-top: 20px;
+    margin-left: 14.4%;
+    max-height: 38px;
+}
+
+.top_title_header_icons_right {
+    display: flex;
+    gap: 41px;
+    margin-top: 28px;
+    gap: 33px;
+    margin-right: 20%;
+    max-height: 29px;
+}
+
+.top_title_itself {
+    display: flex;
     width: 100%;
-    height: 100%;
-    opacity: 1;
-    mix-blend-mode: normal;
-    border-style: solid;
-    border-style: solid;
-    align-items: inherit;
+    min-height: 764px;
+    background-color: #f1e4e6;
 }
 
-.header_top {
-    height: 75px;
-    width: 1600px;
-    left: 0px;
-    top: 0px;
-    border-radius: 0px;
+.thisDudeIsInTheDrip_img {
+    display: flex;
+    min-height: 764px;
+    width: 50%;
+    background: url(../JavaScript_Sem12Hw/JavaScript_Sem12Hw_images/man\ in\ some\ drip1.png) no-repeat;
+    background-position: top;
+}
+
+.here_goes_the_title_text {
+    text-transform: uppercase;
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.place_for_title_text {
+    position: relative;
+    margin-left: 92px;
+}
+
+.some_purple_block_down_here {
+    display: block;
     position: absolute;
-    left: 0%;
-    right: 0%;
-    top: 0%;
-    bottom: 98.43%;
-    background: #222222;
-}
-
-.net_symbol {
-    position: absolute;
-    left: 14.44%;
-    right: 82.81%;
-    top: 0.38%;
-    bottom: 98.83%;
-    background: url(../JavaScript_Sem12Hw/JavaScript_Sem12Hw_images/Group\ 2.png);
-    height: 38px;
-    width: 44px;
-    left: 231px;
-    top: 18px;
-    border-radius: 0px;
-}
-
-.search_button {
-    position: absolute;
-    left: 19.75%;
-    right: 78.63%;
-    top: 0.59%;
-    bottom: 98.85%;
-    background: url(../JavaScript_Sem12Hw/JavaScript_Sem12Hw_images/Forma\ loop.svg);
-    height: 26.791973114013672px;
-    width: 26.001638412475586px;
-    left: 315.997314453125px;
-    top: 28.2100830078125px;
-    border-radius: 0px;
-}
-
-.menu_button {
-    position: absolute;
-    left: 75.06%;
-    right: 22.94%;
-    top: 0.63%;
-    bottom: 98.89%;
-    background: url(../JavaScript_Sem12Hw/JavaScript_Sem12Hw_images/Forma\ menu.svg);
-    height: 23px;
-    width: 32px;
-    left: 1201px;
-    top: 30px;
-    border-radius: 0px;
-}
-
-.profile_button {
-    position: absolute;
-    left: 79.12%;
-    right: 19.06%;
-    top: 0.54%;
-    bottom: 98.85%;
-    background-image: url(../JavaScript_Sem12Hw/JavaScript_Sem12Hw_images/Forma\ man.svg);
-    height: 29px;
-    width: 29px;
-    left: 1266px;
-    top: 26px;
-    border-radius: 0px;
-}
-
-.shopcart_button {
-    position: absolute;
-    left: 83%;
-    right: 15%;
-    top: 0.54%;
-    bottom: 98.85%;
-    background-image: url(../JavaScript_Sem12Hw/JavaScript_Sem12Hw_images/Forma\ shopcart.svg);
-    height: 29.0000057220459px;
-    width: 31.99555778503418px;
-    left: 1328px;
-    top: 26px;
-    border-radius: 0px;
-}
-
-.our_brand_explanation_background_top {
-    position: absolute;
-    left: 0%;
-    right: 0%;
-    top: 1.57%;
-    bottom: 82.42%;
-    background: #f1e4e6;
-    height: 764px;
-    width: 1600px;
-    left: 0px;
-    top: 75px;
-    border-radius: 0px;
-}
-
-.our_brand_explanation_someDude_top {
-    width: 800.58px;
-    height: 764px;
-    left: 0px;
-    top: 75px;
-}
-
-.our_brand_name {
-    position: absolute;
-    width: 405px;
-    height: 93.1px;
-    left: 864px;
-    top: 364.9px;
-    height: 93.09912109375px;
-    width: 405px;
-    left: 864px;
-    top: 364.90087890625px;
-    border-radius: 0px;
-}
-
-.offer {
-    position: absolute;
-    width: 1140px;
-    height: 470px;
-    left: 230px;
-    top: 904px;
-    border-radius: 0px;
-}
-
-.shop_block_top_sentense {
-    position: absolute;
-    width: 336px;
-    height: 53px;
-    left: 631px;
-    top: 1476px;
-}
-
-.shop_list img {
-    height: 587px;
-    width: 360.0000305175781px;
-    left: 230px;
-    top: 1576px;
-    border-radius: 0px;
+    width: 12px;
+    height: 92px;
+    top: 0;
+    left: -24px;
+    background: #f16d7f;
 }
