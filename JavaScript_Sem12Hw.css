@@ -58,6 +58,7 @@
 
 .top_title_itself {
     display: flex;
+    justify-content: center;
     width: 100%;
     min-height: 764px;
     background-color: #f1e4e6;
@@ -91,4 +92,66 @@
     top: 0;
     left: -24px;
     background: #f16d7f;
+}
+
+.title_first_word {
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 57.6px;
+}
+
+.title_other_words {
+    font-size: 32px;
+    line-height: 38.4px;
+    font-weight: 700;
+}
+
+.title_last_purple_word {
+    color: #f16d7f;
+}
+
+.catalog_of_offers {
+    display: grid;
+    justify-content: center;
+    width: 100%;
+    grid-template-columns: repeat(3, 360px);
+    gap: 30px;
+    position: relative;
+    margin-top: 65px;
+    margin-bottom: 96px;
+}
+
+.catalog_first_offer {
+    display: flex;
+    align-content: center;
+    position: relative;
+    min-height: 260px;
+    background: url(../JavaScript_Sem12Hw/JavaScript_Sem12Hw_images/Layer\ 43.png);
+    background-position: center;
+    background-size: contain;
+}
+
+.catalog_first_offer::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(33, 22, 22, 0.7);
+    z-index: 1;
+}
+
+.catalog_offer_text {
+    /*text-transform: uppercase;*/
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #ffffff;
+    text-align: center;
+    z-index: 3;
+}
+
+.catalog_offer_title {
+    width: 100%;
+    color: #ffffff;
 }
